@@ -1,0 +1,24 @@
+server:
+  port: 8094
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8090/eureka/
+
+spring:
+  application:
+    name: service-zuul
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: SERVICE-ACCOUNT
+
+    api-b:
+      path: /api-b/**
+      serviceId: SERVICE-TICKET
+

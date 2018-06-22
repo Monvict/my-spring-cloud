@@ -1,0 +1,32 @@
+server:
+  port: 8091
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8090/eureka/
+
+spring:
+  application:
+    name: service-account
+
+  # 数据库连接池的配置
+  datasource:
+      url: jdbc:mysql://localhost:3306/lotus?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      platform: mysql
+      type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+    type-aliases-package: com.lotus.mapper
+    mapper-locations: classpath:mybatis/*.xml
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql

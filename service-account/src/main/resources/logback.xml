@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--自定义属性-->
+    <property name="LOG_PATTERN" value="%d{yy-MM-dd HH:mm:ss.SSS} %-5level [%thread][%lo{0}] %msg%n"/>
+    <property name="logs" value="E:/idea_space/my-spring-cloud/service-account"/>
+    <property name="app_name" value="account"/>
+
+    <!--输出日志到控制台-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+                <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!--输出日志到文件-->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logs}/logs/server_${app_name}_%d{yyyyMMdd}_%i.log</fileNamePattern>
+            <maxFileSize>200MB</maxFileSize>
+            <maxHistory>50</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.lotus" level="debug" additivity="false">
+        <appender-ref ref="FILE" />
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

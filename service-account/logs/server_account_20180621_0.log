@@ -1,0 +1,122 @@
+18-06-21 14:25:03.020 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 14:25:12.735 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 12.727 seconds (JVM running for 13.796)
+18-06-21 14:25:28.046 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:25:28.076 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] ==> Parameters: 6(String)
+18-06-21 14:25:28.098 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:15.190 DEBUG [http-nio-8091-exec-2][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:15.191 DEBUG [http-nio-8091-exec-2][selectByPrimaryKey] ==> Parameters: 7(String)
+18-06-21 14:26:15.195 DEBUG [http-nio-8091-exec-2][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:18.752 DEBUG [http-nio-8091-exec-3][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:18.752 DEBUG [http-nio-8091-exec-3][selectByPrimaryKey] ==> Parameters: 8(String)
+18-06-21 14:26:18.761 DEBUG [http-nio-8091-exec-3][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:20.326 DEBUG [http-nio-8091-exec-4][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:20.327 DEBUG [http-nio-8091-exec-4][selectByPrimaryKey] ==> Parameters: 9(String)
+18-06-21 14:26:20.328 DEBUG [http-nio-8091-exec-4][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:22.393 DEBUG [http-nio-8091-exec-5][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:22.394 DEBUG [http-nio-8091-exec-5][selectByPrimaryKey] ==> Parameters: 10(String)
+18-06-21 14:26:22.396 DEBUG [http-nio-8091-exec-5][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:24.356 DEBUG [http-nio-8091-exec-6][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:24.356 DEBUG [http-nio-8091-exec-6][selectByPrimaryKey] ==> Parameters: 11(String)
+18-06-21 14:26:24.357 DEBUG [http-nio-8091-exec-6][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:26.244 DEBUG [http-nio-8091-exec-7][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:26.244 DEBUG [http-nio-8091-exec-7][selectByPrimaryKey] ==> Parameters: 12(String)
+18-06-21 14:26:26.248 DEBUG [http-nio-8091-exec-7][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:28.085 DEBUG [http-nio-8091-exec-8][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:28.086 DEBUG [http-nio-8091-exec-8][selectByPrimaryKey] ==> Parameters: 13(String)
+18-06-21 14:26:28.088 DEBUG [http-nio-8091-exec-8][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:26:29.759 DEBUG [http-nio-8091-exec-9][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:29.760 DEBUG [http-nio-8091-exec-9][selectByPrimaryKey] ==> Parameters: 14(String)
+18-06-21 14:26:29.761 DEBUG [http-nio-8091-exec-9][selectByPrimaryKey] <==      Total: 0
+18-06-21 14:26:31.462 DEBUG [http-nio-8091-exec-10][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:26:31.462 DEBUG [http-nio-8091-exec-10][selectByPrimaryKey] ==> Parameters: 1(String)
+18-06-21 14:26:31.463 DEBUG [http-nio-8091-exec-10][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:46:21.961 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 14:46:31.635 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 12.802 seconds (JVM running for 13.898)
+18-06-21 14:46:37.246 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] ==>  Preparing: select id, province_id, city_name, description from city where id = ? 
+18-06-21 14:46:37.281 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] ==> Parameters: 1(String)
+18-06-21 14:46:37.305 DEBUG [http-nio-8091-exec-1][selectByPrimaryKey] <==      Total: 1
+18-06-21 14:48:18.176 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 14:48:28.515 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 12.984 seconds (JVM running for 14.049)
+18-06-21 15:18:31.761 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 15:18:41.591 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 12.853 seconds (JVM running for 13.929)
+18-06-21 15:18:46.236 DEBUG [http-nio-8091-exec-1][selectByPage] ==>  Preparing: select * from city limit ? 
+18-06-21 15:18:46.286 DEBUG [http-nio-8091-exec-1][selectByPage] ==> Parameters: 5(Integer)
+18-06-21 15:18:46.313 DEBUG [http-nio-8091-exec-1][selectByPage] <==      Total: 5
+18-06-21 15:22:30.279 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 15:22:40.705 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 13.482 seconds (JVM running for 14.515)
+18-06-21 15:22:59.802 DEBUG [http-nio-8091-exec-2][selectByPage] ==>  Preparing: select * from city limit ? 
+18-06-21 15:22:59.830 DEBUG [http-nio-8091-exec-2][selectByPage] ==> Parameters: 5(Integer)
+18-06-21 15:22:59.858 DEBUG [http-nio-8091-exec-2][selectByPage] <==      Total: 5
+18-06-21 15:23:12.327 DEBUG [http-nio-8091-exec-3][selectByPage] ==>  Preparing: select * from city limit ? 
+18-06-21 15:23:12.328 DEBUG [http-nio-8091-exec-3][selectByPage] ==> Parameters: 5(Integer)
+18-06-21 15:23:12.330 DEBUG [http-nio-8091-exec-3][selectByPage] <==      Total: 5
+18-06-21 15:23:16.357 DEBUG [http-nio-8091-exec-4][selectByPage] ==>  Preparing: select * from city limit ? 
+18-06-21 15:23:16.358 DEBUG [http-nio-8091-exec-4][selectByPage] ==> Parameters: 5(Integer)
+18-06-21 15:23:16.359 DEBUG [http-nio-8091-exec-4][selectByPage] <==      Total: 5
+18-06-21 15:23:49.921 DEBUG [http-nio-8091-exec-5][selectByPage] ==>  Preparing: select * from city limit ? 
+18-06-21 15:23:49.921 DEBUG [http-nio-8091-exec-5][selectByPage] ==> Parameters: 5(Integer)
+18-06-21 15:23:49.926 DEBUG [http-nio-8091-exec-5][selectByPage] <==      Total: 5
+18-06-21 15:24:01.046 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 15:24:10.668 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 12.025 seconds (JVM running for 13.059)
+18-06-21 15:24:16.180 DEBUG [http-nio-8091-exec-1][selectByPage] ==>  Preparing: select * from city 
+18-06-21 15:24:16.206 DEBUG [http-nio-8091-exec-1][selectByPage] ==> Parameters: 
+18-06-21 15:24:16.228 DEBUG [http-nio-8091-exec-1][selectByPage] <==      Total: 13
+18-06-21 15:24:33.325 DEBUG [http-nio-8091-exec-2][selectByPage] ==>  Preparing: select * from city 
+18-06-21 15:24:33.325 DEBUG [http-nio-8091-exec-2][selectByPage] ==> Parameters: 
+18-06-21 15:24:33.331 DEBUG [http-nio-8091-exec-2][selectByPage] <==      Total: 13
+18-06-21 15:28:55.376 DEBUG [http-nio-8091-exec-4][selectByPage] ==>  Preparing: select * from city 
+18-06-21 15:28:55.377 DEBUG [http-nio-8091-exec-4][selectByPage] ==> Parameters: 
+18-06-21 15:28:55.383 DEBUG [http-nio-8091-exec-4][selectByPage] <==      Total: 13
+18-06-21 15:39:10.553 DEBUG [http-nio-8091-exec-6][selectByPage] ==>  Preparing: select * from city 
+18-06-21 15:39:10.555 DEBUG [http-nio-8091-exec-6][selectByPage] ==> Parameters: 
+18-06-21 15:39:10.559 DEBUG [http-nio-8091-exec-6][selectByPage] <==      Total: 13
+18-06-21 15:39:32.607 DEBUG [http-nio-8091-exec-7][selectByPage] ==>  Preparing: select * from city 
+18-06-21 15:39:32.608 DEBUG [http-nio-8091-exec-7][selectByPage] ==> Parameters: 
+18-06-21 15:39:32.612 DEBUG [http-nio-8091-exec-7][selectByPage] <==      Total: 13
+18-06-21 15:42:33.367 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 15:42:43.894 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 13.093 seconds (JVM running for 14.131)
+18-06-21 15:42:49.049 DEBUG [http-nio-8091-exec-1][selectByPage_COUNT] ==>  Preparing: SELECT count(0) FROM city 
+18-06-21 15:42:49.080 DEBUG [http-nio-8091-exec-1][selectByPage_COUNT] ==> Parameters: 
+18-06-21 15:42:49.115 DEBUG [http-nio-8091-exec-1][selectByPage_COUNT] <==      Total: 1
+18-06-21 15:42:49.117 DEBUG [http-nio-8091-exec-1][selectByPage] ==>  Preparing: select * from city LIMIT 6,3 
+18-06-21 15:42:49.117 DEBUG [http-nio-8091-exec-1][selectByPage] ==> Parameters: 
+18-06-21 15:42:49.121 DEBUG [http-nio-8091-exec-1][selectByPage] <==      Total: 3
+18-06-21 15:42:55.465 DEBUG [http-nio-8091-exec-10][selectByPage_COUNT] ==>  Preparing: SELECT count(0) FROM city 
+18-06-21 15:42:55.466 DEBUG [http-nio-8091-exec-10][selectByPage_COUNT] ==> Parameters: 
+18-06-21 15:42:55.467 DEBUG [http-nio-8091-exec-10][selectByPage_COUNT] <==      Total: 1
+18-06-21 15:42:55.468 DEBUG [http-nio-8091-exec-10][selectByPage] ==>  Preparing: select * from city LIMIT 3 
+18-06-21 15:42:55.468 DEBUG [http-nio-8091-exec-10][selectByPage] ==> Parameters: 
+18-06-21 15:42:55.471 DEBUG [http-nio-8091-exec-10][selectByPage] <==      Total: 3
+18-06-21 15:43:01.591 DEBUG [http-nio-8091-exec-6][selectByPage_COUNT] ==>  Preparing: SELECT count(0) FROM city 
+18-06-21 15:43:01.593 DEBUG [http-nio-8091-exec-6][selectByPage_COUNT] ==> Parameters: 
+18-06-21 15:43:01.594 DEBUG [http-nio-8091-exec-6][selectByPage_COUNT] <==      Total: 1
+18-06-21 15:43:01.594 DEBUG [http-nio-8091-exec-6][selectByPage] ==>  Preparing: select * from city LIMIT 3,3 
+18-06-21 15:43:01.595 DEBUG [http-nio-8091-exec-6][selectByPage] ==> Parameters: 
+18-06-21 15:43:01.597 DEBUG [http-nio-8091-exec-6][selectByPage] <==      Total: 3
+18-06-21 15:43:08.511 DEBUG [http-nio-8091-exec-2][selectByPage_COUNT] ==>  Preparing: SELECT count(0) FROM city 
+18-06-21 15:43:08.512 DEBUG [http-nio-8091-exec-2][selectByPage_COUNT] ==> Parameters: 
+18-06-21 15:43:08.513 DEBUG [http-nio-8091-exec-2][selectByPage_COUNT] <==      Total: 1
+18-06-21 15:43:08.514 DEBUG [http-nio-8091-exec-2][selectByPage] ==>  Preparing: select * from city LIMIT 9,3 
+18-06-21 15:43:08.515 DEBUG [http-nio-8091-exec-2][selectByPage] ==> Parameters: 
+18-06-21 15:43:08.517 DEBUG [http-nio-8091-exec-2][selectByPage] <==      Total: 3
+18-06-21 15:58:48.975 DEBUG [http-nio-8091-exec-4][selectByPage_COUNT] ==>  Preparing: SELECT count(0) FROM city 
+18-06-21 15:58:48.975 DEBUG [http-nio-8091-exec-4][selectByPage_COUNT] ==> Parameters: 
+18-06-21 15:58:48.977 DEBUG [http-nio-8091-exec-4][selectByPage_COUNT] <==      Total: 1
+18-06-21 15:58:48.978 DEBUG [http-nio-8091-exec-4][selectByPage] ==>  Preparing: select * from city LIMIT 3,3 
+18-06-21 15:58:48.978 DEBUG [http-nio-8091-exec-4][selectByPage] ==> Parameters: 
+18-06-21 15:58:48.981 DEBUG [http-nio-8091-exec-4][selectByPage] <==      Total: 3
+18-06-21 17:39:57.478 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 17:40:08.787 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 14.134 seconds (JVM running for 15.254)
+18-06-21 17:42:00.262 INFO  [http-nio-8091-exec-2][HelloController] receive Point(lng=20.228224477, lat=114.2266697)
+18-06-21 17:47:51.771 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 17:48:02.952 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 14.298 seconds (JVM running for 15.441)
+18-06-21 17:48:35.070 INFO  [http-nio-8091-exec-2][HelloController] receive lat 23.111221
+18-06-21 17:48:35.070 INFO  [http-nio-8091-exec-2][HelloController] receive lng 114
+18-06-21 17:50:55.115 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 17:51:06.425 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 14.482 seconds (JVM running for 15.614)
+18-06-21 17:51:55.565 INFO  [main][ServiceAccountApplication] No active profile set, falling back to default profiles: default
+18-06-21 17:52:07.352 INFO  [main][ServiceAccountApplication] Started ServiceAccountApplication in 14.795 seconds (JVM running for 15.971)
+18-06-21 17:52:12.589 INFO  [http-nio-8091-exec-1][HelloController] receive lat 23.11
+18-06-21 17:52:12.589 INFO  [http-nio-8091-exec-1][HelloController] receive lng 114.0
+18-06-21 17:52:29.018 INFO  [http-nio-8091-exec-2][HelloController] receive lat 23.11
+18-06-21 17:52:29.018 INFO  [http-nio-8091-exec-2][HelloController] receive lng 114.223652254
