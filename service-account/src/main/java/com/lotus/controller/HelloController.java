@@ -73,4 +73,9 @@ public class HelloController {
         log.info("receive lng {}", lng);
         return "success";
     }
+
+    @RequestMapping("/point/{addr}")
+    public String getPoint3(@PathVariable("addr") String addr) {
+        return "Success get point for " + addr;
+    }
 }
