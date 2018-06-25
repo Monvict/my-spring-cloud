@@ -12,4 +12,11 @@ spring:
           search-paths: repo-conf
       label: master
 
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8090/eureka/
+
 
